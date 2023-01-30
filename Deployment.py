@@ -2,11 +2,10 @@
 # coding: utf-8
 
 # In[2]:
-
+!pip install scikit-learn
 
 import pandas as pd
 import streamlit as st 
-!pip install scikit-learn
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_absolute_error , mean_squared_error, r2_score 
 from sklearn.ensemble import RandomForestRegressor
