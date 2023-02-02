@@ -37,8 +37,8 @@ def RandomForest(input_data):
 
 
 def user_input_features():
-    Ambient = st.sidebar.number_input("Insert ambient")
-    Coolant = st.sidebar.number_input("Insert Coolant")
+    ambient = st.sidebar.number_input("Insert ambient")
+    coolant = st.sidebar.number_input("Insert Coolant")
     u_d = st.sidebar.number_input("Insert u_d")
     u_q = st.sidebar.number_input("Insert u_q")
     Torque = st.sidebar.number_input("Insert Torque")
